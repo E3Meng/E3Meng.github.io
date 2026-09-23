@@ -11,6 +11,6 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About this site\n\nimport pandas as pd\n\ndf = pd.DataFrame({\n    \"Name\": [\"Alice\", \"Bob\", \"Charlie\"],\n    \"Score\": [85, 92, 78]\n})\n\ndf\n\n\n\n\n\n\n\n\nName\nScore\n\n\n\n\n0\nAlice\n85\n\n\n1\nBob\n92\n\n\n2\nCharlie\n78"
   }
 ]
