@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About this site\n\nimport pandas as pd\n\ndf = pd.DataFrame({\n    \"Name\": [\"Alice\", \"Bob\", \"Charlie\"],\n    \"Score\": [85, 92, 78]\n})\n\nprint(\"Midterm Scores:\")\ndf\n\nMidterm Scores:\n\n\n\n\n\n\n\n\n\nName\nScore\n\n\n\n\n0\nAlice\n85\n\n\n1\nBob\n92\n\n\n2\nCharlie\n78\n\n\n\n\n\n\n\n\nprint(\"----------------------------\")\nnum1 = 10\nnum2 = 20\ntotal = num1 + num2\n\nprint(\"x =\", num1)\nprint(\"y =\", num2)\nprint(\"x + y =\", total)\n\n----------------------------\nx = 10\ny = 20\nx + y = 30"
   },
   {
     "objectID": "index.html",
