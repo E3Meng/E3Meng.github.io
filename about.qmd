@@ -12,13 +12,15 @@ df = pd.DataFrame({
     "Score": [85, 92, 78]
 })
 
-df
+print("Scores:")
+display(df)
 ```
 ```{python}
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
-
+num1 = 10
+num2 = 20
 total = num1 + num2
 
-print("The sum is:", total)
+print("x =", num1)
+print("y =", num2)
+print("x + y =", total)
 ```
